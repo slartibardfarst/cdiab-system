@@ -1,0 +1,12 @@
+key_name = "aws-us-west-2-move-jenkins"
+key_path = "/var/lib/jenkins/.ssh/id_rsa"
+
+environment = "dev"
+
+aws_private_dns = "Z1XORO2MKGWHQY"
+
+instance_type = "t2.micro"
+
+instance_count = 1
+
+aws_ami = "ami--49d0cd79"
